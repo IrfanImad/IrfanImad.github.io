@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> PlantType </title>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Share&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600i&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+      <header>
+        <img src="img/grass-left.png" alt="grass" id="grass-left">
+        <h1 id="title">PlantType</h1>
+        <img src="img/grass-right.png" alt="grass" id="grass-right">
+      </header>
+      
+      <!-- Word & Input -->
+    <div class="main">
+          <p id="command">Type The Given Plant Below Within
+            <span class="text-success" id="seconds">5</span> Seconds:</p>
+            <h2 id="current-word">welcome</h2>
+            <input type="text" class="form" placeholder="Type here..." id="word-input" autofocus>
+            <h4 id="message"></h4>
+           
+
+          <!-- Time & Score Columns -->
+        <div class="time-score">
+            <div>
+              <h3>Time Left:
+                <span id="time">0</span>
+              </h3>
+            </div>
+            <div>
+              <h3>Score:
+                <span id="score">0</span>
+              </h3>
+            </div>
+          </div>
+
+          <!-- Instructions -->
+          <div class="instruction">
+            <h4 id="instruct-title">Instructions</h4>
+            <p id="instruct-explain">To play again, just type the current word.<br>Your score will reset</p>
+            </div>
+          </div>
+            
+
+    <script src="app.js"></script>
+
+    <footer>
+
+      <img src="img/footer-left.png" alt="footer-left" id="footer-left">
+      <p id="copyright">Copyright PlantType &copy;2020. All Rights Reserved.</p>
+      <img src="img/footer-right.png" alt="footer-right" id="footer-right">
+
+    </footer>
+  </body>
+  </html>
+       
+        
+        
+      

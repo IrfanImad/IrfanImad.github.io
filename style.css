@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+    padding: 0;
+    background-color: #FDF280;
+}
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: auto;
+    /* justify-content: space-between; */
+}
+#grass-left{
+    /* float: left; */
+    width: auto;
+    height: 100px;
+}
+#grass-right{
+    /* float: right; */
+    width: auto;
+    height: 100px;
+}
+#title{
+    width: auto;
+    font-family: 'Share';
+    /* padding-top: 40px; */
+    font-size: 90px;
+    color: #6C4127;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+#command{
+    align-self: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Lato';
+    color: #6C4127;
+    font-weight: bold;
+}
+#current-word{
+    padding: 20px 0;
+    align-self: center;
+    font-size: 45px;
+    color: #338727;
+}
+input{
+    align-self: center;
+    padding: 20px 40px 20px 40px;
+    
+}
+::placeholder{
+    color: #6C4127;
+}
+.form{
+    border: 5px solid #6C4127;
+    border-radius: 15px;
+}
+#word-input{
+    color: #338727;
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: bolder;
+}
+#message{
+    padding: 15px 0;
+    align-self: center;
+    font-size: 30px;
+    color: #338727;
+}
+.time-score{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #6C4127;
+}
+#time{
+    padding-right: 10px;
+}
+#score{
+    padding-left: 10px;
+}
+.instruction{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Share';
+    color:  #338727;
+}
+#instruct-title{
+    font-size: 30px;
+}
+#instruct-explain{
+    font-size: 26px;
+    font-weight: bold;
+    border: #6C4127 2px solid;
+    border-radius: 20px;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+}
+#footer-left{
+    justify-content: flex-start;
+    width: 80px;
+    height: 100px;
+}
+#footer-right{
+    justify-content: flex-end;
+    width: auto;
+    height: 150px;
+}
+#copyright{
+    width: 500px;
+    font-family: 'Share';
+    color: #6C4127;
+    font-size: 25px;
+    font-weight: bolder;
+    align-self: flex-end;
+    /* padding-top: 40px; */
+}
